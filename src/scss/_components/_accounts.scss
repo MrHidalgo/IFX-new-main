@@ -1,0 +1,88 @@
+// SECTION accounts :: START
+
+.h-accounts {
+  background-color: #F6F7FB;
+
+  .c-grid {}
+
+  &__wrapper {
+    z-index: 2;
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 15px;
+  }
+
+  &__title {
+    padding-bottom: 15px;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 90px;
+  }
+
+  &__row {
+    display: flex;
+
+    &-left,
+    &-right {
+      display: flex;
+      align-items: center;
+      width: 50%;
+
+      > div {
+        width: 50%;
+
+        p {
+          padding-bottom: 25px;
+          font-size: 70px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: #F30830;
+          letter-spacing: 0;
+          line-height: 70px;
+        }
+
+        span {
+          display: block;
+          font-size: 24px;
+          font-family: 'SF Pro Text', sans-serif;
+          color: #000000;
+          letter-spacing: 0;
+          line-height: 32px;
+        }
+
+        img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    &-left {
+      > div {
+        &:nth-of-type(1) {
+          padding-right: 70px;
+
+          p,
+          span {
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    &-right {
+      > div {
+        &:nth-of-type(2) {
+          padding-left: 70px;
+        }
+      }
+    }
+  }
+}
+
+// SECTION accounts :: END
