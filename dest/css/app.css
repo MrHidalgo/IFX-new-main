@@ -643,12 +643,12 @@ picture {
   background-color: #F6F7FB;
 }
 
-/* line 8, src/scss/_components/_experience.scss */
+/* line 7, src/scss/_components/_experience.scss */
 .h-experience .c-grid {
   max-width: 1084px;
 }
 
-/* line 12, src/scss/_components/_experience.scss */
+/* line 11, src/scss/_components/_experience.scss */
 .h-experience__bg {
   z-index: 0;
   position: absolute;
@@ -658,42 +658,42 @@ picture {
   height: 100%;
 }
 
-/* line 20, src/scss/_components/_experience.scss */
+/* line 19, src/scss/_components/_experience.scss */
 .h-experience__bg img {
   position: absolute;
 }
 
-/* line 23, src/scss/_components/_experience.scss */
+/* line 22, src/scss/_components/_experience.scss */
 .h-experience__bg img:nth-of-type(1) {
   left: 0;
   top: 64px;
 }
 
-/* line 27, src/scss/_components/_experience.scss */
+/* line 26, src/scss/_components/_experience.scss */
 .h-experience__bg img:nth-of-type(2) {
   top: 33px;
   right: 0;
 }
 
-/* line 31, src/scss/_components/_experience.scss */
+/* line 30, src/scss/_components/_experience.scss */
 .h-experience__bg img:nth-of-type(3) {
   bottom: 220px;
   left: 0;
 }
 
-/* line 35, src/scss/_components/_experience.scss */
+/* line 34, src/scss/_components/_experience.scss */
 .h-experience__bg img:nth-of-type(4) {
   right: 400px;
   bottom: 400px;
 }
 
-/* line 39, src/scss/_components/_experience.scss */
+/* line 38, src/scss/_components/_experience.scss */
 .h-experience__bg img:nth-of-type(5) {
   bottom: -30px;
   right: 0;
 }
 
-/* line 46, src/scss/_components/_experience.scss */
+/* line 45, src/scss/_components/_experience.scss */
 .h-experience__wrapper {
   z-index: 2;
   position: relative;
@@ -701,7 +701,7 @@ picture {
   padding-bottom: 98px;
 }
 
-/* line 54, src/scss/_components/_experience.scss */
+/* line 53, src/scss/_components/_experience.scss */
 .h-experience__row-0 {
   width: 100%;
   max-width: 739px;
@@ -709,7 +709,7 @@ picture {
   padding-bottom: 66px;
 }
 
-/* line 61, src/scss/_components/_experience.scss */
+/* line 60, src/scss/_components/_experience.scss */
 .h-experience__row-1 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -721,29 +721,29 @@ picture {
           align-items: center;
 }
 
-/* line 67, src/scss/_components/_experience.scss */
+/* line 66, src/scss/_components/_experience.scss */
 .h-experience__col {
   width: 100%;
 }
 
-/* line 70, src/scss/_components/_experience.scss */
+/* line 69, src/scss/_components/_experience.scss */
 .h-experience__col-0 {
   max-width: 269px;
   padding-right: 57px;
 }
 
-/* line 75, src/scss/_components/_experience.scss */
+/* line 74, src/scss/_components/_experience.scss */
 .h-experience__col-1 {
   max-width: 484px;
 }
 
-/* line 79, src/scss/_components/_experience.scss */
+/* line 78, src/scss/_components/_experience.scss */
 .h-experience__col-2 {
   max-width: 301px;
   padding-left: 41px;
 }
 
-/* line 85, src/scss/_components/_experience.scss */
+/* line 84, src/scss/_components/_experience.scss */
 .h-experience__title {
   padding-bottom: 54px;
   font-size: 80px;
@@ -754,7 +754,7 @@ picture {
   line-height: 90px;
 }
 
-/* line 95, src/scss/_components/_experience.scss */
+/* line 94, src/scss/_components/_experience.scss */
 .h-experience__desc {
   padding-bottom: 40px;
   font-size: 22px;
@@ -764,7 +764,7 @@ picture {
   line-height: 30px;
 }
 
-/* line 104, src/scss/_components/_experience.scss */
+/* line 103, src/scss/_components/_experience.scss */
 .h-experience__text {
   font-family: "SF Pro Text", sans-serif;
   font-size: 18px;
@@ -773,18 +773,18 @@ picture {
   line-height: 26px;
 }
 
-/* line 111, src/scss/_components/_experience.scss */
+/* line 110, src/scss/_components/_experience.scss */
 .h-experience__text--pb {
   padding-bottom: 40px;
 }
 
-/* line 116, src/scss/_components/_experience.scss */
+/* line 115, src/scss/_components/_experience.scss */
 .h-experience__mac {
   width: 260px;
   height: 145px;
 }
 
-/* line 120, src/scss/_components/_experience.scss */
+/* line 119, src/scss/_components/_experience.scss */
 .h-experience__mac-top {
   display: -webkit-box;
   display: -webkit-flex;
@@ -812,7 +812,7 @@ picture {
           border-top-right-radius: 10px;
 }
 
-/* line 136, src/scss/_components/_experience.scss */
+/* line 135, src/scss/_components/_experience.scss */
 .h-experience__mac-bottom {
   height: 4px;
   background-color: #B4C2DF;
@@ -820,7 +820,7 @@ picture {
           clip-path: polygon(0 0, 100% 0, 98% 100%, 2% 100%);
 }
 
-/* line 142, src/scss/_components/_experience.scss */
+/* line 141, src/scss/_components/_experience.scss */
 .h-experience__mac-circle {
   display: -webkit-box;
   display: -webkit-flex;
@@ -846,7 +846,7 @@ picture {
           border-radius: 100%;
 }
 
-/* line 152, src/scss/_components/_experience.scss */
+/* line 151, src/scss/_components/_experience.scss */
 .h-experience__mac-circle--0 {
   left: 5px;
   background: rgba(227, 30, 58, 0.85);
@@ -854,7 +854,7 @@ picture {
           box-shadow: 0 2px 14px 0 rgba(210, 19, 30, 0.3);
 }
 
-/* line 158, src/scss/_components/_experience.scss */
+/* line 157, src/scss/_components/_experience.scss */
 .h-experience__mac-circle--1 {
   right: 5px;
   background: rgba(0, 43, 168, 0.85);
@@ -862,7 +862,7 @@ picture {
           box-shadow: 0 2px 14px 0 rgba(16, 36, 157, 0.3);
 }
 
-/* line 164, src/scss/_components/_experience.scss */
+/* line 163, src/scss/_components/_experience.scss */
 .h-experience__mac-circle p {
   font-size: 12px;
   font-weight: bold;
@@ -871,7 +871,7 @@ picture {
   letter-spacing: 0;
 }
 
-/* line 172, src/scss/_components/_experience.scss */
+/* line 171, src/scss/_components/_experience.scss */
 .h-experience__mac-circle span {
   font-size: 14px;
   font-family: 'SF Pro Text', sans-serif;
@@ -879,7 +879,7 @@ picture {
   letter-spacing: 0;
 }
 
-/* line 181, src/scss/_components/_experience.scss */
+/* line 180, src/scss/_components/_experience.scss */
 .h-experience__card {
   display: -webkit-box;
   display: -webkit-flex;
@@ -896,17 +896,17 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* line 191, src/scss/_components/_experience.scss */
+/* line 190, src/scss/_components/_experience.scss */
 .h-experience__card:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 195, src/scss/_components/_experience.scss */
+/* line 194, src/scss/_components/_experience.scss */
 .h-experience__card > div {
   width: 50%;
 }
 
-/* line 198, src/scss/_components/_experience.scss */
+/* line 197, src/scss/_components/_experience.scss */
 .h-experience__card > div:nth-of-type(1) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -920,7 +920,7 @@ picture {
   width: 48%;
 }
 
-/* line 204, src/scss/_components/_experience.scss */
+/* line 203, src/scss/_components/_experience.scss */
 .h-experience__card > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -934,13 +934,13 @@ picture {
   width: 52%;
 }
 
-/* line 211, src/scss/_components/_experience.scss */
+/* line 210, src/scss/_components/_experience.scss */
 .h-experience__card .icon-museum {
   color: rgba(0, 0, 0, 0.7);
   font-size: 28px;
 }
 
-/* line 216, src/scss/_components/_experience.scss */
+/* line 215, src/scss/_components/_experience.scss */
 .h-experience__card-badge {
   position: absolute;
   left: 17px;
@@ -966,7 +966,7 @@ picture {
           box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* line 229, src/scss/_components/_experience.scss */
+/* line 228, src/scss/_components/_experience.scss */
 .h-experience__card-badge span {
   font-size: 14px;
   font-weight: bold;
@@ -975,7 +975,7 @@ picture {
   letter-spacing: 0;
 }
 
-/* line 238, src/scss/_components/_experience.scss */
+/* line 237, src/scss/_components/_experience.scss */
 .h-experience__card-num {
   display: -webkit-box;
   display: -webkit-flex;
@@ -988,17 +988,17 @@ picture {
   position: relative;
 }
 
-/* line 243, src/scss/_components/_experience.scss */
+/* line 242, src/scss/_components/_experience.scss */
 .h-experience__card-num:nth-of-type(1) {
   margin-bottom: 3px;
 }
 
-/* line 247, src/scss/_components/_experience.scss */
+/* line 246, src/scss/_components/_experience.scss */
 .h-experience__card-num:nth-of-type(2) {
   margin-top: 3px;
 }
 
-/* line 253, src/scss/_components/_experience.scss */
+/* line 252, src/scss/_components/_experience.scss */
 .h-experience__card-num--blue:before, .h-experience__card-num--red:before {
   content: '';
   z-index: 0;
@@ -1013,13 +1013,13 @@ picture {
           border-radius: 6px;
 }
 
-/* line 266, src/scss/_components/_experience.scss */
+/* line 265, src/scss/_components/_experience.scss */
 .h-experience__card-num--blue p,
 .h-experience__card-num--blue span {
   color: #002BA8 !important;
 }
 
-/* line 271, src/scss/_components/_experience.scss */
+/* line 270, src/scss/_components/_experience.scss */
 .h-experience__card-num--blue:before {
   opacity: 0.1;
   background: #002BA8;
@@ -1027,13 +1027,13 @@ picture {
           box-shadow: 0 2px 4px 0 rgba(16, 36, 157, 0.3);
 }
 
-/* line 279, src/scss/_components/_experience.scss */
+/* line 278, src/scss/_components/_experience.scss */
 .h-experience__card-num--red p,
 .h-experience__card-num--red span {
   color: #E31E3A !important;
 }
 
-/* line 284, src/scss/_components/_experience.scss */
+/* line 283, src/scss/_components/_experience.scss */
 .h-experience__card-num--red:before {
   opacity: 0.1;
   background: #E31E3A;
@@ -1041,7 +1041,7 @@ picture {
           box-shadow: 0 2px 4px 0 rgba(210, 19, 30, 0.3);
 }
 
-/* line 291, src/scss/_components/_experience.scss */
+/* line 290, src/scss/_components/_experience.scss */
 .h-experience__card-num p {
   width: 38px;
   font-size: 14px;
@@ -1051,7 +1051,7 @@ picture {
   letter-spacing: 0;
 }
 
-/* line 300, src/scss/_components/_experience.scss */
+/* line 299, src/scss/_components/_experience.scss */
 .h-experience__card-num span {
   white-space: nowrap;
   overflow: hidden;
@@ -1066,7 +1066,7 @@ picture {
   letter-spacing: 0;
 }
 
-/* line 314, src/scss/_components/_experience.scss */
+/* line 313, src/scss/_components/_experience.scss */
 .h-experience__table {
   width: 100%;
   padding: 40px 70px;
@@ -1077,52 +1077,52 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* line 321, src/scss/_components/_experience.scss */
+/* line 320, src/scss/_components/_experience.scss */
 .h-experience__table-head {
   padding-bottom: 30px;
 }
 
-/* line 324, src/scss/_components/_experience.scss */
+/* line 323, src/scss/_components/_experience.scss */
 .h-experience__table-head svg {
   width: 107px;
   height: 20px;
 }
 
-/* line 331, src/scss/_components/_experience.scss */
+/* line 330, src/scss/_components/_experience.scss */
 .h-experience__table-body table {
   width: 100%;
 }
 
-/* line 334, src/scss/_components/_experience.scss */
+/* line 333, src/scss/_components/_experience.scss */
 .h-experience__table-body table thead {
   background: #F9FAFC;
   -webkit-border-radius: 5px;
           border-radius: 5px;
 }
 
-/* line 338, src/scss/_components/_experience.scss */
+/* line 337, src/scss/_components/_experience.scss */
 .h-experience__table-body table thead th {
   text-align: left;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* line 344, src/scss/_components/_experience.scss */
+/* line 343, src/scss/_components/_experience.scss */
 .h-experience__table-body table thead th:nth-of-type(1) {
   padding-left: 20px;
 }
 
-/* line 349, src/scss/_components/_experience.scss */
+/* line 348, src/scss/_components/_experience.scss */
 .h-experience__table-body table thead th:nth-of-type(2) p {
   color: #E31E3A;
 }
 
-/* line 354, src/scss/_components/_experience.scss */
+/* line 353, src/scss/_components/_experience.scss */
 .h-experience__table-body table thead th:nth-of-type(3) p {
   color: #002BA8;
 }
 
-/* line 360, src/scss/_components/_experience.scss */
+/* line 359, src/scss/_components/_experience.scss */
 .h-experience__table-body table thead p {
   padding-top: 13px;
   padding-bottom: 13px;
@@ -1134,19 +1134,19 @@ picture {
   letter-spacing: 0;
 }
 
-/* line 373, src/scss/_components/_experience.scss */
+/* line 372, src/scss/_components/_experience.scss */
 .h-experience__table-body table tbody tr {
   -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
           box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
 }
 
-/* line 376, src/scss/_components/_experience.scss */
+/* line 375, src/scss/_components/_experience.scss */
 .h-experience__table-body table tbody tr:last-of-type {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 382, src/scss/_components/_experience.scss */
+/* line 381, src/scss/_components/_experience.scss */
 .h-experience__table-body table td {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1154,12 +1154,12 @@ picture {
   padding-right: 5px;
 }
 
-/* line 388, src/scss/_components/_experience.scss */
+/* line 387, src/scss/_components/_experience.scss */
 .h-experience__table-body table td:nth-of-type(1) {
   padding-left: 10px;
 }
 
-/* line 392, src/scss/_components/_experience.scss */
+/* line 391, src/scss/_components/_experience.scss */
 .h-experience__table-body table td div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1182,7 +1182,7 @@ picture {
           box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* line 402, src/scss/_components/_experience.scss */
+/* line 401, src/scss/_components/_experience.scss */
 .h-experience__table-body table td div span {
   font-size: 14px;
   font-weight: bold;
@@ -1191,7 +1191,7 @@ picture {
   letter-spacing: 0;
 }
 
-/* line 411, src/scss/_components/_experience.scss */
+/* line 410, src/scss/_components/_experience.scss */
 .h-experience__table-body table td span {
   position: relative;
   font-family: 'SF Pro Text', sans-serif;
@@ -1200,7 +1200,7 @@ picture {
   letter-spacing: 0;
 }
 
-/* line 418, src/scss/_components/_experience.scss */
+/* line 417, src/scss/_components/_experience.scss */
 .h-experience__table-body table td span.red, .h-experience__table-body table td span.blue {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1216,7 +1216,7 @@ picture {
   font-weight: 600;
 }
 
-/* line 427, src/scss/_components/_experience.scss */
+/* line 426, src/scss/_components/_experience.scss */
 .h-experience__table-body table td span.red:before, .h-experience__table-body table td span.blue:before {
   content: '';
   z-index: 0;
@@ -1229,32 +1229,32 @@ picture {
           border-radius: 6px;
 }
 
-/* line 439, src/scss/_components/_experience.scss */
+/* line 438, src/scss/_components/_experience.scss */
 .h-experience__table-body table td span.red {
   color: #E31E3A;
 }
 
-/* line 442, src/scss/_components/_experience.scss */
+/* line 441, src/scss/_components/_experience.scss */
 .h-experience__table-body table td span.red:before {
   background: rgba(227, 30, 58, 0.1);
 }
 
-/* line 447, src/scss/_components/_experience.scss */
+/* line 446, src/scss/_components/_experience.scss */
 .h-experience__table-body table td span.blue {
   color: #002BA8;
 }
 
-/* line 450, src/scss/_components/_experience.scss */
+/* line 449, src/scss/_components/_experience.scss */
 .h-experience__table-body table td span.blue:before {
   background-color: rgba(0, 43, 168, 0.1);
 }
 
-/* line 459, src/scss/_components/_experience.scss */
+/* line 458, src/scss/_components/_experience.scss */
 .h-experience__table-footer {
   padding-top: 10px;
 }
 
-/* line 462, src/scss/_components/_experience.scss */
+/* line 461, src/scss/_components/_experience.scss */
 .h-experience__table-footer p {
   text-transform: uppercase;
   font-size: 10px;
@@ -1264,7 +1264,7 @@ picture {
   letter-spacing: 0;
 }
 
-/* line 472, src/scss/_components/_experience.scss */
+/* line 471, src/scss/_components/_experience.scss */
 .h-experience__table-title {
   padding-top: 8px;
   font-size: 26px;
@@ -1330,7 +1330,7 @@ picture {
   background-color: #F6F7FB;
 }
 
-/* line 8, src/scss/_components/_accounts.scss */
+/* line 6, src/scss/_components/_accounts.scss */
 .h-accounts__wrapper {
   z-index: 2;
   position: relative;
@@ -1338,7 +1338,7 @@ picture {
   padding-bottom: 15px;
 }
 
-/* line 15, src/scss/_components/_accounts.scss */
+/* line 13, src/scss/_components/_accounts.scss */
 .h-accounts__title {
   padding-bottom: 15px;
   font-size: 80px;
@@ -1350,7 +1350,7 @@ picture {
   line-height: 90px;
 }
 
-/* line 26, src/scss/_components/_accounts.scss */
+/* line 24, src/scss/_components/_accounts.scss */
 .h-accounts__row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1358,7 +1358,7 @@ picture {
   display: flex;
 }
 
-/* line 29, src/scss/_components/_accounts.scss */
+/* line 27, src/scss/_components/_accounts.scss */
 .h-accounts__row-left, .h-accounts__row-right {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1371,12 +1371,12 @@ picture {
   width: 50%;
 }
 
-/* line 35, src/scss/_components/_accounts.scss */
+/* line 33, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div, .h-accounts__row-right > div {
   width: 50%;
 }
 
-/* line 38, src/scss/_components/_accounts.scss */
+/* line 36, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div p, .h-accounts__row-right > div p {
   padding-bottom: 25px;
   font-size: 70px;
@@ -1387,7 +1387,7 @@ picture {
   line-height: 70px;
 }
 
-/* line 48, src/scss/_components/_accounts.scss */
+/* line 46, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div span, .h-accounts__row-right > div span {
   display: block;
   font-size: 24px;
@@ -1397,27 +1397,208 @@ picture {
   line-height: 32px;
 }
 
-/* line 57, src/scss/_components/_accounts.scss */
+/* line 55, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div img, .h-accounts__row-right > div img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 67, src/scss/_components/_accounts.scss */
+/* line 65, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div:nth-of-type(1) {
   padding-right: 70px;
 }
 
-/* line 70, src/scss/_components/_accounts.scss */
+/* line 68, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div:nth-of-type(1) p,
 .h-accounts__row-left > div:nth-of-type(1) span {
   text-align: right;
 }
 
-/* line 80, src/scss/_components/_accounts.scss */
+/* line 78, src/scss/_components/_accounts.scss */
 .h-accounts__row-right > div:nth-of-type(2) {
   padding-left: 70px;
+}
+
+/* line 3, src/scss/_components/_deposit.scss */
+.h-deposit {
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F6F7FB;
+}
+
+/* line 10, src/scss/_components/_deposit.scss */
+.h-deposit .c-grid {
+  max-width: 624px;
+}
+
+/* line 14, src/scss/_components/_deposit.scss */
+.h-deposit__bg {
+  z-index: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 1678px;
+  height: -webkit-calc(100% - (103px + 86px));
+  height: calc(100% - (103px + 86px));
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 103px;
+  padding-bottom: 86px;
+}
+
+/* line 29, src/scss/_components/_deposit.scss */
+.h-deposit__bg img {
+  position: absolute;
+}
+
+/* line 32, src/scss/_components/_deposit.scss */
+.h-deposit__bg img:nth-of-type(1) {
+  top: 0;
+  left: 0;
+}
+
+/* line 36, src/scss/_components/_deposit.scss */
+.h-deposit__bg img:nth-of-type(2) {
+  top: 20px;
+  right: 220px;
+}
+
+/* line 40, src/scss/_components/_deposit.scss */
+.h-deposit__bg img:nth-of-type(3) {
+  top: 50%;
+  left: 120px;
+}
+
+/* line 44, src/scss/_components/_deposit.scss */
+.h-deposit__bg img:nth-of-type(4) {
+  top: 50%;
+  right: 0;
+}
+
+/* line 48, src/scss/_components/_deposit.scss */
+.h-deposit__bg img:nth-of-type(5) {
+  bottom: 20px;
+  left: 25px;
+}
+
+/* line 52, src/scss/_components/_deposit.scss */
+.h-deposit__bg img:nth-of-type(6) {
+  bottom: 0;
+  right: 150px;
+}
+
+/* line 59, src/scss/_components/_deposit.scss */
+.h-deposit__wrapper {
+  z-index: 2;
+  position: relative;
+  padding-top: 225px;
+  padding-bottom: 215px;
+}
+
+/* line 66, src/scss/_components/_deposit.scss */
+.h-deposit__title {
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+
+/* line 76, src/scss/_components/_deposit.scss */
+.h-deposit__text {
+  padding-bottom: 70px;
+  font-size: 20px;
+  font-family: 'SF Pro Text', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+/* line 85, src/scss/_components/_deposit.scss */
+.h-deposit__block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 90, src/scss/_components/_deposit.scss */
+.h-deposit__block > div:nth-of-type(1) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* line 94, src/scss/_components/_deposit.scss */
+.h-deposit__block > div:nth-of-type(2) {
+  width: 148px;
+}
+
+/* line 99, src/scss/_components/_deposit.scss */
+.h-deposit__block p {
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+/* line 107, src/scss/_components/_deposit.scss */
+.h-deposit__block a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 44px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #E30813;
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 122, src/scss/_components/_deposit.scss */
+.h-deposit__block a:hover {
+  background-color: rgba(227, 8, 19, 0.9);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

@@ -8,5 +8,6 @@
 * - jquery.stellar;
 * - jquery-migrate;
 * - swiper;
+* - TweenMax;
 *
 * */
