@@ -38,6 +38,7 @@ $(document).ready((ev) => {
 		// ==========================================
     initStellar();
     initSwiper();
+    initSmoothScroll();
 
     // callback
 		// ==========================================
