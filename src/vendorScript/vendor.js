@@ -7,5 +7,6 @@
 * - jquery;
 * - jquery.stellar;
 * - jquery-migrate;
+* - swiper;
 *
 * */

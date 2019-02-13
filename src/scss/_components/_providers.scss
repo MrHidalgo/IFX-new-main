@@ -1,0 +1,42 @@
+// SECTION providers :: START
+
+.h-providers {
+  .c-grid {
+    max-width: 1391px;
+  }
+
+  &__wrapper {
+    padding-bottom: 90px;
+  }
+
+  &__title {
+    padding-bottom: 44px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 62px;
+  }
+
+  .swiper-wrapper {
+    align-items: center;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+}
+
+// SECTION providers :: END

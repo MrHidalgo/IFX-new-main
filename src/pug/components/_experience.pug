@@ -1,0 +1,156 @@
+// SECTION experience :: START
+
+section#h-experience.h-experience
+  .h-experience__bg(parallax-js)
+    img(data-stellar-ratio="1.2" src="./img/img-experience-bg-0.png" srcset="./img/img-experience-bg-0@2x.png 2x" alt="" title="")
+    img(data-stellar-ratio="1.1" src="./img/img-experience-bg-1.png" srcset="./img/img-experience-bg-1@2x.png 2x" alt="" title="")
+    img(data-stellar-ratio="0.5" src="./img/img-experience-bg-2.png" srcset="./img/img-experience-bg-2@2x.png 2x" alt="" title="")
+    img(data-stellar-ratio="0.7" src="./img/img-experience-bg-3.png" srcset="./img/img-experience-bg-3@2x.png 2x" alt="" title="")
+    img(data-stellar-ratio="1.2" src="./img/img-experience-bg-4.png" srcset="./img/img-experience-bg-4@2x.png 2x" alt="" title="")
+
+  .c-grid
+    .h-experience__wrapper
+
+      .h-experience__row.h-experience__row-0
+
+        h2.h-experience__title!= "Experience trading the way it should be"
+
+        p.h-experience__desc!= "In a true ECN environment IFX clients benefit from the best possible prices available from Tier-1 banks and dark pool liquidity providers."
+
+        p.h-experience__text.h-experience__text--pb!= "ECN stands for Electronic Communications Network. The ECN provides an electronic system for buyers and sellers to come together for the purpose of executing trades.  It does this by providing access to information regarding orders being entered, and by facilitating the execution of these orders."
+        p.h-experience__text!= "Designed to match buy and sell orders currently present in the exchange, it provides prices reflecting the highest bid and lowest ask listed on the open market."
+
+      .h-experience__row.h-experience__row-1
+
+        .h-experience__col.h-experience__col-0
+
+          .h-experience__card.h-experience__card-0
+            div
+              i.icon-font.icon-museum
+              .h-experience__card-badge
+                span!= "A"
+            div
+              .h-experience__card-num
+                p!= "BID"
+                span!= "1.32123"
+              .h-experience__card-num
+                p!= "ASK"
+                span!= "1.32129"
+          .h-experience__card.h-experience__card-1
+            div
+              i.icon-font.icon-museum
+              .h-experience__card-badge
+                span!= "B"
+            div
+              .h-experience__card-num
+                p!= "BID"
+                span!= "1.32123"
+              .h-experience__card-num.h-experience__card-num--blue
+                p!= "ASK"
+                span!= "1.32129"
+          .h-experience__card.h-experience__card-2
+            div
+              i.icon-font.icon-museum
+              .h-experience__card-badge
+                span!= "C"
+            div
+              .h-experience__card-num.h-experience__card-num--red
+                p!= "BID"
+                span!= "1.32123"
+              .h-experience__card-num
+                p!= "ASK"
+                span!= "1.32129"
+          .h-experience__card.h-experience__card-3
+            div
+              i.icon-font.icon-museum
+              .h-experience__card-badge
+                span!= "D"
+            div
+              .h-experience__card-num
+                p!= "BID"
+                span!= "1.32123"
+              .h-experience__card-num
+                p!= "ASK"
+                span!= "1.32129"
+
+        .h-experience__col.h-experience__col-1
+
+          .h-experience__table
+            .h-experience__table-head
+              +logotype()
+              p.h-experience__table-title!= "Aggregation Engine"
+            .h-experience__table-body
+
+              table
+                thead
+                  tr
+                    th
+                      p!= "Rank"
+                    th
+                      p!= "BID"
+                    th
+                      p!= "ASK"
+                    th
+                      p!= "Spread"
+                tbody
+                  tr
+                    td
+                      div
+                        span!= "A"
+                    td
+                      span!= "1.32123"
+                    td
+                      span!= "1.32123"
+                    td
+                      span!= "0.6 PIP"
+                  tr
+                    td
+                      div
+                        span!= "B"
+                    td
+                      span!= "1.32123"
+                    td
+                      span.blue!= "1.32123"
+                    td
+                      span!= "0.6 PIP"
+                  tr
+                    td
+                      div
+                        span!= "C"
+                    td
+                      span.red!= "1.32123"
+                    td
+                      span!= "1.32123"
+                    td
+                      span!= "0.6 PIP"
+                  tr
+                    td
+                      div
+                        span!= "D"
+                    td
+                      span!= "1.32123"
+                    td
+                      span!= "1.32123"
+                    td
+                      span!= "0.6 PIP"
+
+            .h-experience__table-footer
+              p!= "EurUSD example"
+
+        .h-experience__col.h-experience__col-2
+
+          .h-experience__mac
+            .h-experience__mac-top
+              .h-experience__mac-circle.h-experience__mac-circle--0
+                p!= "BID"
+                span!= "1.32125"
+
+              .h-experience__mac-circle.h-experience__mac-circle--1
+                p!= "ASK"
+                span!= "1.32127"
+
+            .h-experience__mac-bottom
+
+  include _providers
+
+// SECTION experience :: END
