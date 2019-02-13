@@ -1,0 +1,74 @@
+// SECTION why :: START
+
+-
+  var whyData = [
+    {
+      iconName: 'i-why-0',
+      title: 'Safety of funds',
+      desc: 'You can rest easy when you trade with IFX Brokers. Client funds are kept separate in a segregated account and monitored daily by our 3rd party auditor. In addition, IFX Wallet offer added protection. Your deposits automatically go into your wallet. A safe place that is completely protected from your trading activities'
+    },
+    {
+      iconName: 'i-why-1',
+      title: 'Licenced & Regulated',
+      desc: 'IFX Brokers is a trading name of IFX Brokers Holdings (Pty) Ltd (Registration No. 2017/027249/07). Our distribution and market conduct is regulated by the Financial Sector Conduct Authority (Authorized Financial Services Provider number 48021).'
+    },
+    {
+      iconName: 'i-why-2',
+      title: 'Interactive Trading Academy',
+      desc: 'Whether you are a beginner or an experienced trader, IFX Academy will provide the tools to accelerate your growth as a successful trader. You will be taught to shrewdly manage risk and optimise your rewards. It’s simple: our online Forex training courses and continued support give you the edge.'
+    },
+    {
+      iconName: 'i-why-3',
+      title: 'MyIFXBrokers  - your secure online traders room',
+      desc: 'Jam-packed with all the features you expect from a leading broker, myiFXBrokers, is similar to a high-powered exotic car. You are placed firmly in the driver’s seat, controlling all your trades from a user-friendly dashboard. And you have the advantage of foresight, speed and power from our Sophisticated Forex trading strategies, market scanner and professional trading tools.'
+    },
+    {
+      iconName: 'i-why-4',
+      title: 'Competitive Trading Conditions',
+      desc: 'True ECN connectivity means we are able to offer market leading spreads and the flexibility of selecting leverage of up to 1:500'
+    },
+    {
+      iconName: 'i-why-5',
+      title: 'Instant deposits and Withdrawals',
+      desc: 'IFX Brokers enables clients to open accounts and deposit funds in the following base currencies: South African Rand (ZAR), United States Dollar (USD), British Pound Sterling (GBP), Euro (EUR). With a variety ofpayment options clients can start trading almost instantly.'
+    }
+  ];
+
+mixin whyBlock(classMod, iconName, title, desc)
+  .h-why__block(class!= 'h-why__block-' + classMod)
+    .h-why__block-left
+      .h-why__block-icon
+        +iconSVG(iconName)
+    .h-why__block-right
+      p.h-why__block-title!= title
+      p.h-why__block-desc!= desc
+
+section#h-why.h-why
+  .c-grid
+    .h-why__wrapper
+
+      h2.h-why__title!= "Why Trade With Us"
+
+      .h-why__row
+        each val, idx in whyData
+          .h-why__col(class!= "h-why__col-" + idx)
+            +whyBlock(idx, whyData[idx].iconName, whyData[idx].title, whyData[idx].desc)
+
+  .h-why__info
+    a(href="#" class="" title="")
+      div
+        i.icon-font.icon-why-profile
+      div
+        span!= "View & Download Company Profile"
+    a(href="#" class="" title="")
+      div
+        i.icon-font.icon-why-license
+      div
+        span!= "View & Download FSCA License"
+    a(href="#" class="" title="")
+      div
+        i.icon-font.icon-why-xxx
+      div
+        span!= "XXXXXXXXX"
+
+// SECTION why :: END

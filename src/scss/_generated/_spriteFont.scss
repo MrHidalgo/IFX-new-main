@@ -30,6 +30,15 @@
 	@if $filename == chevron {
 		$char: "\E001";
 	}
+	@if $filename == why-license {
+		$char: "\E002";
+	}
+	@if $filename == why-profile {
+		$char: "\E003";
+	}
+	@if $filename == why-xxx {
+		$char: "\E004";
+	}
 
 	@return $char;
 }
@@ -47,5 +56,17 @@
 
 .icon-chevron {
 	@include icon(chevron);
+
+}
+.icon-why-license {
+	@include icon(why-license);
+
+}
+.icon-why-profile {
+	@include icon(why-profile);
+
+}
+.icon-why-xxx {
+	@include icon(why-xxx);
 
 }

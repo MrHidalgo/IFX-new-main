@@ -1,0 +1,160 @@
+// SECTION why :: START
+
+.h-why {
+  position: relative;
+  background-color: $c-white;
+
+  .c-grid {
+    max-width: 1310px;
+  }
+
+  &__wrapper {
+    padding-top: 155px;
+    padding-bottom: 174px;
+  }
+
+  &__title {
+    padding-bottom: 95px;
+    text-align: center;
+    color: #000000;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 50px;
+  }
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__col {
+    width: 100%;
+    max-width: 50%;
+
+    &:nth-of-type(even) {
+      padding-left: 22px;
+    }
+    &:nth-of-type(odd) {
+      padding-right: 65px;
+    }
+
+    &:nth-last-child(1),
+    &:nth-last-child(2) {
+      .h-why__block {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__block {
+    display: flex;
+    margin-bottom: 50px;
+
+    &-left {
+      width: 90px;
+    }
+
+    &-right {
+      width: 100%;
+      max-width: calc(100% - 90px);
+    }
+
+    &-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+      background-color: #F30830;
+    }
+
+    &-title {
+      padding-bottom: 19px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #000000;
+      letter-spacing: 0;
+    }
+
+    &-desc {
+      font-family: 'SF Pro Text', sans-serif;
+      font-size: 14px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 20px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 200px;
+
+    a {
+      display: flex;
+      height: 100px;
+      @include transition(background-color);
+
+      &:hover {
+        @include transition(background-color);
+        &:nth-of-type(1) {
+          background-color: rgba(#000000, 0.9);
+        }
+        &:nth-of-type(2) {
+          background-color: rgba(#1A1A1A, 0.9);
+        }
+        &:nth-of-type(3) {
+          background-color: rgba(#333333, 0.9);
+        }
+      }
+
+      &:nth-of-type(1) {
+        background-color: #000000;
+      }
+      &:nth-of-type(2) {
+        background-color: #1A1A1A;
+      }
+      &:nth-of-type(3) {
+        background-color: #333333;
+      }
+
+      > div {
+        &:nth-of-type(1) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 60px;
+        }
+
+        &:nth-of-type(2) {
+          display: flex;
+          align-items: center;
+          flex: 1;
+          min-width: 1px;
+          max-width: 100%;
+        }
+      }
+
+      .icon-font {
+        color: $c-white;
+        font-size: 20px;
+      }
+
+      span {
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 20px;
+        font-size: 14px;
+        font-family: 'SF Pro Text', sans-serif;
+      }
+    }
+  }
+}
+
+// SECTION why :: END
