@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="15px" viewBox="0 0 23 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-269.000000, -896.000000)" fill="#FFFFFF">
+            <g id="Group-11">
+                <g id="01-Welcome">
+                    <g id="Group-5" transform="translate(200.000000, 820.000000)">
+                        <path d="M83.3137085,72.3431458 L83.3137085,72 L87.3137085,72 L87.3137085,72.3431458 L87.6568542,72.3431458 L87.6568542,76.3431458 L87.3137085,76.3431458 L87.3137085,88 L83.3137085,88 L83.3137085,76.3431458 L71.6568542,76.3431458 L71.6568542,72.3431458 L83.3137085,72.3431458 Z" id="chevron" transform="translate(80.000000, 80.000000) rotate(-225.000000) translate(-80.000000, -80.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

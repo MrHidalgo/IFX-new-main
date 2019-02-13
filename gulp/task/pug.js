@@ -3,7 +3,7 @@ const gulp        = require('gulp'),
 	pug             = require('gulp-pug'),
 	plumber         = require('gulp-plumber'),
 	frontMatter     = require('gulp-front-matter'),
-	emitty          = require('emitty').setup('src/pug', 'pug'),
+	// emitty          = require('emitty').setup('src/pug', 'pug'),
 	htmlmin         = require('gulp-htmlmin');
 
 
@@ -30,7 +30,7 @@ const renderPug = () => {
 		.src(srcPath)
 		.pipe(plumber(configOption.pipeBreaking.err))
 		// .pipe(gulpif(global.isPugWatching, emitty.stream(global.emittyChangedPugFile)))
-		.pipe(emitty.stream(global.emittyChangedPugFile))
+		// .pipe(emitty.stream(global.emittyChangedPugFile))
 		.pipe(frontMatter({
 			property: 'data'
 		}))
@@ -65,6 +65,6 @@ gulp.task('pug:watch', function() {
 		configPath.src.templates + '/**/**',
 		configPath.src.templates + '/**/**/**',
 	], ['pug']).on('all', (event, filepath) => {
-		global.emittyChangedPugFile = filepath;
+		// global.emittyChangedPugFile = filepath;
 	});
 });

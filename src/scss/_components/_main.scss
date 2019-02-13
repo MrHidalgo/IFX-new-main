@@ -1,0 +1,64 @@
+// SECTION main :: START
+
+.h-main {
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 280px;
+  padding-bottom: 30px;
+  background-image: url('../img/img-main-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .c-grid {
+    max-width: 1550px;
+  }
+
+  &__wrapper {}
+
+  &__title {
+    padding-bottom: 90px;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 150px;
+    font-size: 160px;
+    font-weight: bold;
+    letter-spacing: 0;
+  }
+
+  &__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background: #F30830;
+    transform-origin: center;
+    @include transition(transform, box-shadow);
+
+    &:hover {
+      transform: scale(0.9);
+      box-shadow: 0 0 15px 10px rgba($c-black, 0.1);
+      @include transition(transform, box-shadow);
+
+      .icon-font {
+        transform: scale(1.4);
+        @include transition(transform);
+      }
+    }
+
+    .icon-font {
+      margin-top: 2px;
+      margin-bottom: 2px;
+      color: $c-white;
+      font-size: 16px;
+      transform-origin: center;
+      @include transition(transform);
+    }
+  }
+}
+
+// SECTION main :: END
