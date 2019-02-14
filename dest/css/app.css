@@ -272,49 +272,9 @@ picture {
   padding-left: 15px;
 }
 
-/* line 20, src/scss/_shared/_grid.scss */
-.c-grid {
-  max-width: 100%;
-}
-
 /* line 27, src/scss/_shared/_grid.scss */
 .c-grid-fluid {
   max-width: 100%;
-}
-
-@media screen and (min-width: 576px) {
-  /* line 35, src/scss/_shared/_grid.scss */
-  .c-grid {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  /* line 35, src/scss/_shared/_grid.scss */
-  .c-grid {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  /* line 35, src/scss/_shared/_grid.scss */
-  .c-grid {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  /* line 35, src/scss/_shared/_grid.scss */
-  .c-grid {
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 1366px) {
-  /* line 35, src/scss/_shared/_grid.scss */
-  .c-grid {
-    max-width: 100%;
-  }
 }
 
 /* line 3, src/scss/_shared/_iconSVG.scss */
