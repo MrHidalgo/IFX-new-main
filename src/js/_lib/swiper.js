@@ -98,6 +98,20 @@ const initSwiper = () => {
     },
     speed: 750,
     slidesPerView: 5,
-    spaceBetween: 0
+    spaceBetween: 0,
+    breakpoints: {
+      575: {
+        slidesPerView: 1,
+      },
+      767: {
+        slidesPerView: 2,
+      },
+      991: {
+        slidesPerView: 3,
+      },
+      1199: {
+        slidesPerView: 4,
+      }
+    },
   });
 };

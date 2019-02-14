@@ -1,12 +1,18 @@
 // SECTION providers :: START
 
 .h-providers {
+  position: relative;
+
   .c-grid {
     max-width: 1391px;
   }
 
   &__wrapper {
     padding-bottom: 90px;
+    @include adaptive(767) {
+      padding-top: 45px;
+      padding-bottom: 45px;
+    }
   }
 
   &__title {
@@ -17,6 +23,8 @@
     letter-spacing: 0;
     text-align: center;
     line-height: 62px;
+    @include fluid(font-size, 320px, 768px, 30px, 40px);
+    @include fluid(line-height, 320px, 1200px, 40px, 62px);
   }
 
   .swiper-wrapper {

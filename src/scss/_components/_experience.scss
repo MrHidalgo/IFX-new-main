@@ -18,6 +18,9 @@
 
     img {
       position: absolute;
+      display: block;
+      max-width: 100%;
+      height: auto;
 
       &:nth-of-type(1) {
         left: 0;
@@ -26,6 +29,9 @@
       &:nth-of-type(2) {
         top: 33px;
         right: 0;
+        @include adaptive(767) {
+          display: none !important;
+        }
       }
       &:nth-of-type(3) {
         bottom: 220px;
@@ -34,6 +40,9 @@
       &:nth-of-type(4) {
         right: 400px;
         bottom: 400px;
+        @include adaptive(1199) {
+          display: none !important;
+        }
       }
       &:nth-of-type(5) {
         bottom: -30px;
@@ -45,8 +54,10 @@
   &__wrapper {
     z-index: 2;
     position: relative;
-    padding-top: 120px;
-    padding-bottom: 98px;
+    //padding-top: 120px;
+    //padding-bottom: 98px;
+    @include fluid(padding-top, 320px, 1440px, 60px, 120px);
+    @include fluid(padding-bottom, 320px, 1440px, 49px, 98px);
   }
 
   &__row {
@@ -55,11 +66,17 @@
       max-width: 739px;
       margin-left: 77px;
       padding-bottom: 66px;
+      @include adaptive(991) {
+        margin-left: 0;
+      }
     }
 
     &-1 {
       display: flex;
       align-items: center;
+      @include adaptive(1199) {
+        flex-wrap: wrap;
+      }
     }
   }
 
@@ -69,26 +86,51 @@
     &-0 {
       max-width: 269px;
       padding-right: 57px;
+      @include adaptive(1199) {
+        max-width: 50%;
+        padding-right: 15px;
+      }
+      @include adaptive(767) {
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 30px;
+      }
     }
 
     &-1 {
       max-width: 484px;
+      @include adaptive(1199) {
+        max-width: 50%;
+      }
+      @include adaptive(767) {
+        max-width: 100%;
+      }
     }
 
     &-2 {
       max-width: 301px;
       padding-left: 41px;
+      @include adaptive(1199) {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin-top: 30px;
+        padding-left: 0;
+      }
     }
   }
 
   &__title {
-    padding-bottom: 54px;
-    font-size: 80px;
+    //padding-bottom: 54px;
+    //font-size: 80px;
     font-weight: bold;
     text-transform: uppercase;
     color: #000000;
     letter-spacing: 0;
-    line-height: 90px;
+    //line-height: 90px;
+    @include fluid(padding-bottom, 320px, 1440px, 30px, 54px);
+    @include fluid(line-height, 320px, 1600px, 55px, 90px);
+    @include fluid(font-size, 320px, 1600px, 45px, 80px);
   }
 
   &__desc {
@@ -179,13 +221,17 @@
 
   &__card {
     display: flex;
-    width: 100%;
+    width: 212px;
     height: 82px;
     margin-bottom: 16px;
     padding: 20px;
     background: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0 1px 20px 0 rgba(0,0,0,0.10);
+    @include adaptive(1199) {
+      margin-left: auto;
+      margin-right: auto;
+    }
 
     &:last-of-type {
       margin-bottom: 0;
@@ -316,6 +362,12 @@
     background: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0 1px 20px 0 rgba(0,0,0,0.10);
+    @include adaptive(991) {
+      padding: 30px;
+    }
+    @include adaptive(575) {
+      padding: 30px 15px;
+    }
 
     &-head {
       padding-bottom: 30px;
@@ -329,6 +381,9 @@
     &-body {
       table {
         width: 100%;
+        @include adaptive(575) {
+          table-layout: fixed;
+        }
 
         thead {
           background: #F9FAFC;
@@ -413,6 +468,9 @@
             font-size: 14px;
             color: #000000;
             letter-spacing: 0;
+            @include adaptive(575) {
+              font-size: 12px;
+            }
 
             &.red,
             &.blue {
@@ -422,6 +480,9 @@
               height: 36px;
               padding-right: 14px;
               font-weight: 600;
+              @include adaptive(424) {
+                width: 71px;
+              }
 
               &:before {
                 content: '';
