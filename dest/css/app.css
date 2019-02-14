@@ -2205,77 +2205,244 @@ picture {
   padding-bottom: 86px;
 }
 
-/* line 29, src/scss/_components/_deposit.scss */
+@media screen and (max-width: 1365px) {
+  /* line 14, src/scss/_components/_deposit.scss */
+  .h-deposit__bg {
+    height: -webkit-calc(100% - 103px);
+    height: calc(100% - 103px);
+    padding-bottom: 0;
+  }
+}
+
+/* line 33, src/scss/_components/_deposit.scss */
 .h-deposit__bg img {
   position: absolute;
 }
 
-/* line 32, src/scss/_components/_deposit.scss */
+@media screen and (max-width: 1439px) {
+  /* line 33, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img {
+    -webkit-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  /* line 33, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 33, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img {
+    -webkit-transform: scale(0.75);
+        -ms-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+}
+
+/* line 45, src/scss/_components/_deposit.scss */
 .h-deposit__bg img:nth-of-type(1) {
   top: 0;
   left: 0;
 }
 
-/* line 36, src/scss/_components/_deposit.scss */
+@media screen and (max-width: 991px) {
+  /* line 45, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img:nth-of-type(1) {
+    opacity: 0;
+  }
+}
+
+/* line 52, src/scss/_components/_deposit.scss */
 .h-deposit__bg img:nth-of-type(2) {
   top: 20px;
   right: 220px;
 }
 
-/* line 40, src/scss/_components/_deposit.scss */
+@media screen and (max-width: 1365px) {
+  /* line 52, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img:nth-of-type(2) {
+    right: 0;
+  }
+}
+
+/* line 59, src/scss/_components/_deposit.scss */
 .h-deposit__bg img:nth-of-type(3) {
   top: 50%;
   left: 120px;
 }
 
-/* line 44, src/scss/_components/_deposit.scss */
+@media screen and (max-width: 1365px) {
+  /* line 59, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img:nth-of-type(3) {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 59, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img:nth-of-type(3) {
+    opacity: 0;
+  }
+}
+
+/* line 69, src/scss/_components/_deposit.scss */
 .h-deposit__bg img:nth-of-type(4) {
   top: 50%;
   right: 0;
 }
 
-/* line 48, src/scss/_components/_deposit.scss */
+@media screen and (max-width: 1199px) {
+  /* line 69, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img:nth-of-type(4) {
+    opacity: 0;
+  }
+}
+
+/* line 76, src/scss/_components/_deposit.scss */
 .h-deposit__bg img:nth-of-type(5) {
   bottom: 20px;
   left: 25px;
 }
 
-/* line 52, src/scss/_components/_deposit.scss */
+@media screen and (max-width: 1365px) {
+  /* line 76, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img:nth-of-type(5) {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 76, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img:nth-of-type(5) {
+    opacity: 0;
+  }
+}
+
+/* line 86, src/scss/_components/_deposit.scss */
 .h-deposit__bg img:nth-of-type(6) {
   bottom: 0;
   right: 150px;
 }
 
-/* line 59, src/scss/_components/_deposit.scss */
+@media screen and (max-width: 1365px) {
+  /* line 86, src/scss/_components/_deposit.scss */
+  .h-deposit__bg img:nth-of-type(6) {
+    right: 0;
+  }
+}
+
+/* line 96, src/scss/_components/_deposit.scss */
 .h-deposit__wrapper {
   z-index: 2;
   position: relative;
-  padding-top: 225px;
-  padding-bottom: 215px;
+  padding-top: 115px;
+  padding-bottom: 105px;
 }
 
-/* line 66, src/scss/_components/_deposit.scss */
+@media screen and (min-width: 320px) {
+  /* line 96, src/scss/_components/_deposit.scss */
+  .h-deposit__wrapper {
+    padding-top: -webkit-calc(115px + 110 * (100vw - 320px) / 1120);
+    padding-top: calc(115px + 110 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 96, src/scss/_components/_deposit.scss */
+  .h-deposit__wrapper {
+    padding-top: 225px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 96, src/scss/_components/_deposit.scss */
+  .h-deposit__wrapper {
+    padding-bottom: -webkit-calc(105px + 110 * (100vw - 320px) / 1120);
+    padding-bottom: calc(105px + 110 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 96, src/scss/_components/_deposit.scss */
+  .h-deposit__wrapper {
+    padding-bottom: 215px;
+  }
+}
+
+/* line 105, src/scss/_components/_deposit.scss */
 .h-deposit__title {
   padding-bottom: 25px;
   text-transform: uppercase;
-  font-size: 100px;
   font-weight: bold;
   color: #000000;
   letter-spacing: 0;
-  line-height: 100px;
+  line-height: 50px;
+  font-size: 50px;
 }
 
-/* line 76, src/scss/_components/_deposit.scss */
+@media screen and (min-width: 320px) {
+  /* line 105, src/scss/_components/_deposit.scss */
+  .h-deposit__title {
+    line-height: -webkit-calc(50px + 50 * (100vw - 320px) / 1600);
+    line-height: calc(50px + 50 * (100vw - 320px) / 1600);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* line 105, src/scss/_components/_deposit.scss */
+  .h-deposit__title {
+    line-height: 100px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 105, src/scss/_components/_deposit.scss */
+  .h-deposit__title {
+    font-size: -webkit-calc(50px + 50 * (100vw - 320px) / 1600);
+    font-size: calc(50px + 50 * (100vw - 320px) / 1600);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* line 105, src/scss/_components/_deposit.scss */
+  .h-deposit__title {
+    font-size: 100px;
+  }
+}
+
+/* line 117, src/scss/_components/_deposit.scss */
 .h-deposit__text {
   padding-bottom: 70px;
-  font-size: 20px;
   font-family: 'SF Pro Text', sans-serif;
   color: rgba(0, 0, 0, 0.5);
   letter-spacing: 0;
   line-height: 27px;
+  font-size: 16px;
 }
 
-/* line 85, src/scss/_components/_deposit.scss */
+@media screen and (min-width: 320px) {
+  /* line 117, src/scss/_components/_deposit.scss */
+  .h-deposit__text {
+    font-size: -webkit-calc(16px + 4 * (100vw - 320px) / 1120);
+    font-size: calc(16px + 4 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 117, src/scss/_components/_deposit.scss */
+  .h-deposit__text {
+    font-size: 20px;
+  }
+}
+
+/* line 127, src/scss/_components/_deposit.scss */
 .h-deposit__block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2287,7 +2454,16 @@ picture {
           align-items: center;
 }
 
-/* line 90, src/scss/_components/_deposit.scss */
+@media screen and (max-width: 575px) {
+  /* line 127, src/scss/_components/_deposit.scss */
+  .h-deposit__block {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 135, src/scss/_components/_deposit.scss */
 .h-deposit__block > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -2295,21 +2471,44 @@ picture {
           flex: 1;
 }
 
-/* line 94, src/scss/_components/_deposit.scss */
+/* line 139, src/scss/_components/_deposit.scss */
 .h-deposit__block > div:nth-of-type(2) {
   width: 148px;
 }
 
-/* line 99, src/scss/_components/_deposit.scss */
+@media screen and (max-width: 575px) {
+  /* line 139, src/scss/_components/_deposit.scss */
+  .h-deposit__block > div:nth-of-type(2) {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+/* line 148, src/scss/_components/_deposit.scss */
 .h-deposit__block p {
   font-family: 'SF Pro Text', sans-serif;
-  font-size: 24px;
   color: #000000;
   letter-spacing: 0;
   line-height: 32px;
+  font-size: 20px;
 }
 
-/* line 107, src/scss/_components/_deposit.scss */
+@media screen and (min-width: 320px) {
+  /* line 148, src/scss/_components/_deposit.scss */
+  .h-deposit__block p {
+    font-size: -webkit-calc(20px + 4 * (100vw - 320px) / 1120);
+    font-size: calc(20px + 4 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 148, src/scss/_components/_deposit.scss */
+  .h-deposit__block p {
+    font-size: 24px;
+  }
+}
+
+/* line 157, src/scss/_components/_deposit.scss */
 .h-deposit__block a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2338,7 +2537,7 @@ picture {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 122, src/scss/_components/_deposit.scss */
+/* line 172, src/scss/_components/_deposit.scss */
 .h-deposit__block a:hover {
   background-color: rgba(227, 8, 19, 0.9);
   -webkit-transition: background-color 0.3s ease-in-out;

@@ -292,6 +292,14 @@ $(document).ready(function (ev) {
     _tl.to('#h-deposit__bg-img-4', 7.5, { x: 75, y: -20, ease: Power0.easeNone }, '-=7.5');
     _tl.to('#h-deposit__bg-img-5', 7.5, { x: -40, y: 40, ease: Power0.easeNone }, '-=7.5');
 
+    $(window).on('resize load', function () {
+      if ($(window).width() < 1366) {
+        _tl.pause(0);
+      } else {
+        _tl.play();
+      }
+    });
+
     $(document).mousemove(function (event) {
       $(".h-deposit__bg img").each(function (index, element) {
         _tlMousemove.to(element, 6.5, {
