@@ -544,33 +544,110 @@ picture {
 
 /* line 3, src/scss/_components/_why.scss */
 .h-why {
+  overflow: hidden;
   position: relative;
   background-color: #fff;
 }
 
-/* line 7, src/scss/_components/_why.scss */
+/* line 8, src/scss/_components/_why.scss */
 .h-why .c-grid {
   max-width: 1310px;
 }
 
-/* line 11, src/scss/_components/_why.scss */
-.h-why__wrapper {
-  padding-top: 155px;
-  padding-bottom: 174px;
+@media screen and (max-width: 1919px) {
+  /* line 8, src/scss/_components/_why.scss */
+  .h-why .c-grid {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 }
 
-/* line 16, src/scss/_components/_why.scss */
+@media screen and (max-width: 767px) {
+  /* line 8, src/scss/_components/_why.scss */
+  .h-why .c-grid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 20, src/scss/_components/_why.scss */
+.h-why__wrapper {
+  padding-top: 75px;
+  padding-bottom: 37px;
+}
+
+@media screen and (min-width: 320px) {
+  /* line 20, src/scss/_components/_why.scss */
+  .h-why__wrapper {
+    padding-top: -webkit-calc(75px + 80 * (100vw - 320px) / 1120);
+    padding-top: calc(75px + 80 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 20, src/scss/_components/_why.scss */
+  .h-why__wrapper {
+    padding-top: 155px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 20, src/scss/_components/_why.scss */
+  .h-why__wrapper {
+    padding-bottom: -webkit-calc(37px + 137 * (100vw - 320px) / 1120);
+    padding-bottom: calc(37px + 137 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 20, src/scss/_components/_why.scss */
+  .h-why__wrapper {
+    padding-bottom: 174px;
+  }
+}
+
+/* line 25, src/scss/_components/_why.scss */
 .h-why__title {
-  padding-bottom: 95px;
   text-align: center;
   color: #000000;
-  font-size: 80px;
   font-weight: bold;
   letter-spacing: 0;
   line-height: 50px;
+  padding-bottom: 50px;
+  font-size: 45px;
 }
 
-/* line 26, src/scss/_components/_why.scss */
+@media screen and (min-width: 320px) {
+  /* line 25, src/scss/_components/_why.scss */
+  .h-why__title {
+    padding-bottom: -webkit-calc(50px + 45 * (100vw - 320px) / 1120);
+    padding-bottom: calc(50px + 45 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 25, src/scss/_components/_why.scss */
+  .h-why__title {
+    padding-bottom: 95px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 25, src/scss/_components/_why.scss */
+  .h-why__title {
+    font-size: -webkit-calc(45px + 35 * (100vw - 320px) / 1280);
+    font-size: calc(45px + 35 * (100vw - 320px) / 1280);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  /* line 25, src/scss/_components/_why.scss */
+  .h-why__title {
+    font-size: 80px;
+  }
+}
+
+/* line 35, src/scss/_components/_why.scss */
 .h-why__row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -581,28 +658,64 @@ picture {
           flex-wrap: wrap;
 }
 
-/* line 31, src/scss/_components/_why.scss */
+/* line 40, src/scss/_components/_why.scss */
 .h-why__col {
   width: 100%;
   max-width: 50%;
 }
 
-/* line 35, src/scss/_components/_why.scss */
+@media screen and (max-width: 991px) {
+  /* line 40, src/scss/_components/_why.scss */
+  .h-why__col {
+    max-width: 100%;
+  }
+}
+
+/* line 47, src/scss/_components/_why.scss */
 .h-why__col:nth-of-type(even) {
   padding-left: 22px;
 }
 
-/* line 38, src/scss/_components/_why.scss */
+@media screen and (max-width: 991px) {
+  /* line 47, src/scss/_components/_why.scss */
+  .h-why__col:nth-of-type(even) {
+    padding-left: 0;
+    padding-right: 65px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 47, src/scss/_components/_why.scss */
+  .h-why__col:nth-of-type(even) {
+    padding-right: 0;
+  }
+}
+
+/* line 57, src/scss/_components/_why.scss */
 .h-why__col:nth-of-type(odd) {
   padding-right: 65px;
 }
 
-/* line 44, src/scss/_components/_why.scss */
+@media screen and (max-width: 767px) {
+  /* line 57, src/scss/_components/_why.scss */
+  .h-why__col:nth-of-type(odd) {
+    padding-right: 0;
+  }
+}
+
+/* line 66, src/scss/_components/_why.scss */
 .h-why__col:nth-last-child(1) .h-why__block, .h-why__col:nth-last-child(2) .h-why__block {
   margin-bottom: 0;
 }
 
-/* line 50, src/scss/_components/_why.scss */
+@media screen and (max-width: 991px) {
+  /* line 71, src/scss/_components/_why.scss */
+  .h-why__col:nth-last-child(2) {
+    margin-bottom: 50px;
+  }
+}
+
+/* line 78, src/scss/_components/_why.scss */
 .h-why__block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -611,19 +724,34 @@ picture {
   margin-bottom: 50px;
 }
 
-/* line 54, src/scss/_components/_why.scss */
+/* line 82, src/scss/_components/_why.scss */
 .h-why__block-left {
   width: 90px;
 }
 
-/* line 58, src/scss/_components/_why.scss */
+@media screen and (max-width: 767px) {
+  /* line 82, src/scss/_components/_why.scss */
+  .h-why__block-left {
+    width: 75px;
+  }
+}
+
+/* line 89, src/scss/_components/_why.scss */
 .h-why__block-right {
   width: 100%;
   max-width: -webkit-calc(100% - 90px);
   max-width: calc(100% - 90px);
 }
 
-/* line 63, src/scss/_components/_why.scss */
+@media screen and (max-width: 767px) {
+  /* line 89, src/scss/_components/_why.scss */
+  .h-why__block-right {
+    max-width: -webkit-calc(100% - 75px);
+    max-width: calc(100% - 75px);
+  }
+}
+
+/* line 97, src/scss/_components/_why.scss */
 .h-why__block-icon {
   display: -webkit-box;
   display: -webkit-flex;
@@ -644,7 +772,15 @@ picture {
   background-color: #F30830;
 }
 
-/* line 73, src/scss/_components/_why.scss */
+@media screen and (max-width: 767px) {
+  /* line 97, src/scss/_components/_why.scss */
+  .h-why__block-icon {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+/* line 111, src/scss/_components/_why.scss */
 .h-why__block-title {
   padding-bottom: 19px;
   font-size: 18px;
@@ -653,7 +789,7 @@ picture {
   letter-spacing: 0;
 }
 
-/* line 81, src/scss/_components/_why.scss */
+/* line 119, src/scss/_components/_why.scss */
 .h-why__block-desc {
   font-family: 'SF Pro Text', sans-serif;
   font-size: 14px;
@@ -662,7 +798,7 @@ picture {
   line-height: 20px;
 }
 
-/* line 90, src/scss/_components/_why.scss */
+/* line 128, src/scss/_components/_why.scss */
 .h-why__info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -680,9 +816,64 @@ picture {
           transform: translateY(-50%);
   right: 0;
   width: 200px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 99, src/scss/_components/_why.scss */
+@media screen and (max-width: 1919px) {
+  /* line 128, src/scss/_components/_why.scss */
+  .h-why__info {
+    -webkit-transform: translateY(-50%) translateX(-webkit-calc(100% - 60px));
+        -ms-transform: translateY(-50%) translateX(calc(100% - 60px));
+            transform: translateY(-50%) translateX(calc(100% - 60px));
+  }
+}
+
+@media screen and (max-width: 1919px) and (max-width: mediumpx) {
+  /* line 140, src/scss/_components/_why.scss */
+  .h-why__info:hover {
+    -webkit-transform: translateY(-50%) translateX(0);
+        -ms-transform: translateY(-50%) translateX(0);
+            transform: translateY(-50%) translateX(0);
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 128, src/scss/_components/_why.scss */
+  .h-why__info {
+    position: static;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+            transform: translate(0);
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 128, src/scss/_components/_why.scss */
+  .h-why__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* line 157, src/scss/_components/_why.scss */
 .h-why__info a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -694,44 +885,61 @@ picture {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 104, src/scss/_components/_why.scss */
+@media screen and (max-width: 767px) {
+  /* line 157, src/scss/_components/_why.scss */
+  .h-why__info a {
+    width: 100%;
+    max-width: -webkit-calc(100% / 3);
+    max-width: calc(100% / 3);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 157, src/scss/_components/_why.scss */
+  .h-why__info a {
+    max-width: 100%;
+    height: 75px;
+  }
+}
+
+/* line 170, src/scss/_components/_why.scss */
 .h-why__info a:hover {
   -webkit-transition: background-color 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 106, src/scss/_components/_why.scss */
+/* line 172, src/scss/_components/_why.scss */
 .h-why__info a:hover:nth-of-type(1) {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 109, src/scss/_components/_why.scss */
+/* line 175, src/scss/_components/_why.scss */
 .h-why__info a:hover:nth-of-type(2) {
   background-color: rgba(26, 26, 26, 0.9);
 }
 
-/* line 112, src/scss/_components/_why.scss */
+/* line 178, src/scss/_components/_why.scss */
 .h-why__info a:hover:nth-of-type(3) {
   background-color: rgba(51, 51, 51, 0.9);
 }
 
-/* line 117, src/scss/_components/_why.scss */
+/* line 183, src/scss/_components/_why.scss */
 .h-why__info a:nth-of-type(1) {
   background-color: #000000;
 }
 
-/* line 120, src/scss/_components/_why.scss */
+/* line 186, src/scss/_components/_why.scss */
 .h-why__info a:nth-of-type(2) {
   background-color: #1A1A1A;
 }
 
-/* line 123, src/scss/_components/_why.scss */
+/* line 189, src/scss/_components/_why.scss */
 .h-why__info a:nth-of-type(3) {
   background-color: #333333;
 }
 
-/* line 128, src/scss/_components/_why.scss */
+/* line 194, src/scss/_components/_why.scss */
 .h-why__info a > div:nth-of-type(1) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -748,7 +956,7 @@ picture {
   width: 60px;
 }
 
-/* line 135, src/scss/_components/_why.scss */
+/* line 201, src/scss/_components/_why.scss */
 .h-why__info a > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -766,13 +974,13 @@ picture {
   max-width: 100%;
 }
 
-/* line 144, src/scss/_components/_why.scss */
+/* line 210, src/scss/_components/_why.scss */
 .h-why__info a .icon-font {
   color: #fff;
   font-size: 20px;
 }
 
-/* line 149, src/scss/_components/_why.scss */
+/* line 215, src/scss/_components/_why.scss */
 .h-why__info a span {
   color: #FFFFFF;
   letter-spacing: 0;
