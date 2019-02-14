@@ -272,9 +272,49 @@ picture {
   padding-left: 15px;
 }
 
+/* line 20, src/scss/_shared/_grid.scss */
+.c-grid {
+  max-width: 100%;
+}
+
 /* line 27, src/scss/_shared/_grid.scss */
 .c-grid-fluid {
   max-width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  /* line 35, src/scss/_shared/_grid.scss */
+  .c-grid {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 35, src/scss/_shared/_grid.scss */
+  .c-grid {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 35, src/scss/_shared/_grid.scss */
+  .c-grid {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 35, src/scss/_shared/_grid.scss */
+  .c-grid {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* line 35, src/scss/_shared/_grid.scss */
+  .c-grid {
+    max-width: 100%;
+  }
 }
 
 /* line 3, src/scss/_shared/_iconSVG.scss */
@@ -297,32 +337,111 @@ picture {
   overflow: hidden;
   position: relative;
   min-height: 100vh;
-  padding-top: 280px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   background-image: url("../img/img-main-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
+  padding-top: 120px;
 }
 
-/* line 14, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 3, src/scss/_components/_main.scss */
+  .h-main {
+    padding-top: -webkit-calc(120px + 160 * (100vw - 320px) / 1280);
+    padding-top: calc(120px + 160 * (100vw - 320px) / 1280);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  /* line 3, src/scss/_components/_main.scss */
+  .h-main {
+    padding-top: 280px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 3, src/scss/_components/_main.scss */
+  .h-main {
+    min-height: auto;
+  }
+}
+
+/* line 17, src/scss/_components/_main.scss */
 .h-main .c-grid {
   max-width: 1550px;
 }
 
-/* line 20, src/scss/_components/_main.scss */
+/* line 21, src/scss/_components/_main.scss */
 .h-main__title {
-  padding-bottom: 90px;
   color: #000000;
   text-transform: uppercase;
-  line-height: 150px;
-  font-size: 160px;
   font-weight: bold;
   letter-spacing: 0;
+  padding-bottom: 60px;
+  font-size: 65px;
+  line-height: 55px;
 }
 
-/* line 30, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 21, src/scss/_components/_main.scss */
+  .h-main__title {
+    padding-bottom: -webkit-calc(60px + 30 * (100vw - 320px) / 447);
+    padding-bottom: calc(60px + 30 * (100vw - 320px) / 447);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  /* line 21, src/scss/_components/_main.scss */
+  .h-main__title {
+    padding-bottom: 90px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 21, src/scss/_components/_main.scss */
+  .h-main__title {
+    font-size: -webkit-calc(65px + 95 * (100vw - 320px) / 1600);
+    font-size: calc(65px + 95 * (100vw - 320px) / 1600);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* line 21, src/scss/_components/_main.scss */
+  .h-main__title {
+    font-size: 160px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 21, src/scss/_components/_main.scss */
+  .h-main__title {
+    line-height: -webkit-calc(55px + 95 * (100vw - 320px) / 1600);
+    line-height: calc(55px + 95 * (100vw - 320px) / 1600);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /* line 21, src/scss/_components/_main.scss */
+  .h-main__title {
+    line-height: 150px;
+  }
+}
+
+/* line 31, src/scss/_components/_main.scss */
+.h-main__title br:last-of-type {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 31, src/scss/_components/_main.scss */
+  .h-main__title br:last-of-type {
+    display: block;
+  }
+}
+
+/* line 40, src/scss/_components/_main.scss */
 .h-main__btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -341,8 +460,6 @@ picture {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 160px;
-  height: 160px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
   background: #F30830;
@@ -354,9 +471,29 @@ picture {
   -o-transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  width: 90px;
+  height: 90px;
 }
 
-/* line 42, src/scss/_components/_main.scss */
+@media screen and (min-width: 320px) {
+  /* line 40, src/scss/_components/_main.scss */
+  .h-main__btn {
+    width: -webkit-calc(90px + 70 * (100vw - 320px) / 1120);
+    width: calc(90px + 70 * (100vw - 320px) / 1120);
+    height: -webkit-calc(90px + 70 * (100vw - 320px) / 1120);
+    height: calc(90px + 70 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 40, src/scss/_components/_main.scss */
+  .h-main__btn {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* line 51, src/scss/_components/_main.scss */
 .h-main__btn:hover {
   -webkit-transform: scale(0.9);
       -ms-transform: scale(0.9);
@@ -370,11 +507,11 @@ picture {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 47, src/scss/_components/_main.scss */
+/* line 56, src/scss/_components/_main.scss */
 .h-main__btn:hover .icon-font {
-  -webkit-transform: scale(1.4);
-      -ms-transform: scale(1.4);
-          transform: scale(1.4);
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   -o-transition: transform 0.3s ease-in-out;
@@ -382,7 +519,7 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 53, src/scss/_components/_main.scss */
+/* line 62, src/scss/_components/_main.scss */
 .h-main__btn .icon-font {
   margin-top: 2px;
   margin-bottom: 2px;
@@ -396,6 +533,13 @@ picture {
   -o-transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 576px) {
+  /* line 62, src/scss/_components/_main.scss */
+  .h-main__btn .icon-font {
+    font-size: 14px;
+  }
 }
 
 /* line 3, src/scss/_components/_why.scss */
