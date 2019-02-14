@@ -6,50 +6,63 @@
   &__wrapper {
     z-index: 2;
     position: relative;
-    padding-top: 110px;
+    //padding-top: 110px;
     padding-bottom: 15px;
+    @include fluid(padding-top, 320px, 1440px, 55px, 110px);
   }
 
   &__title {
     padding-bottom: 15px;
-    font-size: 80px;
+    //font-size: 80px;
     font-weight: bold;
     text-transform: uppercase;
     color: #000000;
     letter-spacing: 0;
     text-align: center;
-    line-height: 90px;
+    //line-height: 90px;
+    @include fluid(line-height, 320px, 1440px, 55px, 90px);
+    @include fluid(font-size, 320px, 1440px, 45px, 80px);
   }
 
   &__row {
     display: flex;
+    @include adaptive(991) {
+      flex-wrap: wrap;
+    }
 
     &-left,
     &-right {
       display: flex;
       align-items: center;
       width: 50%;
+      @include adaptive(991) {
+        width: 100%;
+      }
 
       > div {
         width: 50%;
 
         p {
           padding-bottom: 25px;
-          font-size: 70px;
+          //font-size: 70px;
           font-weight: bold;
           text-transform: uppercase;
           color: #F30830;
           letter-spacing: 0;
-          line-height: 70px;
+          //line-height: 70px;
+          @include fluid(line-height, 320px, 1600px, 35px, 70px);
+          @include fluid(font-size, 320px, 1600px, 30px, 70px);
         }
 
         span {
           display: block;
-          font-size: 24px;
+          //font-size: 24px;
           font-family: 'SF Pro Text', sans-serif;
           color: #000000;
           letter-spacing: 0;
-          line-height: 32px;
+          //line-height: 32px;
+          @include fluid(line-height, 320px, 768px, 24px, 32px);
+          @include fluid(font-size, 320px, 768px, 18px, 24px);
         }
 
         img {
@@ -64,6 +77,12 @@
       > div {
         &:nth-of-type(1) {
           padding-right: 70px;
+          @include adaptive(1439) {
+            padding-right: 30px;
+          }
+          @include adaptive(767) {
+            padding-right: 15px;
+          }
 
           p,
           span {
@@ -77,6 +96,12 @@
       > div {
         &:nth-of-type(2) {
           padding-left: 70px;
+          @include adaptive(1439) {
+            padding-left: 30px;
+          }
+          @include adaptive(767) {
+            padding-left: 15px;
+          }
         }
       }
     }

@@ -1930,23 +1930,68 @@ picture {
 .h-accounts__wrapper {
   z-index: 2;
   position: relative;
-  padding-top: 110px;
   padding-bottom: 15px;
+  padding-top: 55px;
 }
 
-/* line 13, src/scss/_components/_accounts.scss */
+@media screen and (min-width: 320px) {
+  /* line 6, src/scss/_components/_accounts.scss */
+  .h-accounts__wrapper {
+    padding-top: -webkit-calc(55px + 55 * (100vw - 320px) / 1120);
+    padding-top: calc(55px + 55 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 6, src/scss/_components/_accounts.scss */
+  .h-accounts__wrapper {
+    padding-top: 110px;
+  }
+}
+
+/* line 14, src/scss/_components/_accounts.scss */
 .h-accounts__title {
   padding-bottom: 15px;
-  font-size: 80px;
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;
   letter-spacing: 0;
   text-align: center;
-  line-height: 90px;
+  line-height: 55px;
+  font-size: 45px;
 }
 
-/* line 24, src/scss/_components/_accounts.scss */
+@media screen and (min-width: 320px) {
+  /* line 14, src/scss/_components/_accounts.scss */
+  .h-accounts__title {
+    line-height: -webkit-calc(55px + 35 * (100vw - 320px) / 1120);
+    line-height: calc(55px + 35 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 14, src/scss/_components/_accounts.scss */
+  .h-accounts__title {
+    line-height: 90px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 14, src/scss/_components/_accounts.scss */
+  .h-accounts__title {
+    font-size: -webkit-calc(45px + 35 * (100vw - 320px) / 1120);
+    font-size: calc(45px + 35 * (100vw - 320px) / 1120);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* line 14, src/scss/_components/_accounts.scss */
+  .h-accounts__title {
+    font-size: 80px;
+  }
+}
+
+/* line 27, src/scss/_components/_accounts.scss */
 .h-accounts__row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1954,7 +1999,16 @@ picture {
   display: flex;
 }
 
-/* line 27, src/scss/_components/_accounts.scss */
+@media screen and (max-width: 991px) {
+  /* line 27, src/scss/_components/_accounts.scss */
+  .h-accounts__row {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 33, src/scss/_components/_accounts.scss */
 .h-accounts__row-left, .h-accounts__row-right {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1967,53 +2021,148 @@ picture {
   width: 50%;
 }
 
-/* line 33, src/scss/_components/_accounts.scss */
+@media screen and (max-width: 991px) {
+  /* line 33, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left, .h-accounts__row-right {
+    width: 100%;
+  }
+}
+
+/* line 42, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div, .h-accounts__row-right > div {
   width: 50%;
 }
 
-/* line 36, src/scss/_components/_accounts.scss */
+/* line 45, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div p, .h-accounts__row-right > div p {
   padding-bottom: 25px;
-  font-size: 70px;
   font-weight: bold;
   text-transform: uppercase;
   color: #F30830;
   letter-spacing: 0;
-  line-height: 70px;
+  line-height: 35px;
+  font-size: 30px;
 }
 
-/* line 46, src/scss/_components/_accounts.scss */
+@media screen and (min-width: 320px) {
+  /* line 45, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left > div p, .h-accounts__row-right > div p {
+    line-height: -webkit-calc(35px + 35 * (100vw - 320px) / 1280);
+    line-height: calc(35px + 35 * (100vw - 320px) / 1280);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  /* line 45, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left > div p, .h-accounts__row-right > div p {
+    line-height: 70px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 45, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left > div p, .h-accounts__row-right > div p {
+    font-size: -webkit-calc(30px + 40 * (100vw - 320px) / 1280);
+    font-size: calc(30px + 40 * (100vw - 320px) / 1280);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  /* line 45, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left > div p, .h-accounts__row-right > div p {
+    font-size: 70px;
+  }
+}
+
+/* line 57, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div span, .h-accounts__row-right > div span {
   display: block;
-  font-size: 24px;
   font-family: 'SF Pro Text', sans-serif;
   color: #000000;
   letter-spacing: 0;
-  line-height: 32px;
+  line-height: 24px;
+  font-size: 18px;
 }
 
-/* line 55, src/scss/_components/_accounts.scss */
+@media screen and (min-width: 320px) {
+  /* line 57, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left > div span, .h-accounts__row-right > div span {
+    line-height: -webkit-calc(24px + 8 * (100vw - 320px) / 448);
+    line-height: calc(24px + 8 * (100vw - 320px) / 448);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 57, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left > div span, .h-accounts__row-right > div span {
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* line 57, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left > div span, .h-accounts__row-right > div span {
+    font-size: -webkit-calc(18px + 6 * (100vw - 320px) / 448);
+    font-size: calc(18px + 6 * (100vw - 320px) / 448);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 57, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left > div span, .h-accounts__row-right > div span {
+    font-size: 24px;
+  }
+}
+
+/* line 68, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div img, .h-accounts__row-right > div img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 65, src/scss/_components/_accounts.scss */
+/* line 78, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div:nth-of-type(1) {
   padding-right: 70px;
 }
 
-/* line 68, src/scss/_components/_accounts.scss */
+@media screen and (max-width: 1439px) {
+  /* line 78, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left > div:nth-of-type(1) {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 78, src/scss/_components/_accounts.scss */
+  .h-accounts__row-left > div:nth-of-type(1) {
+    padding-right: 15px;
+  }
+}
+
+/* line 87, src/scss/_components/_accounts.scss */
 .h-accounts__row-left > div:nth-of-type(1) p,
 .h-accounts__row-left > div:nth-of-type(1) span {
   text-align: right;
 }
 
-/* line 78, src/scss/_components/_accounts.scss */
+/* line 97, src/scss/_components/_accounts.scss */
 .h-accounts__row-right > div:nth-of-type(2) {
   padding-left: 70px;
+}
+
+@media screen and (max-width: 1439px) {
+  /* line 97, src/scss/_components/_accounts.scss */
+  .h-accounts__row-right > div:nth-of-type(2) {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 97, src/scss/_components/_accounts.scss */
+  .h-accounts__row-right > div:nth-of-type(2) {
+    padding-left: 15px;
+  }
 }
 
 /* line 3, src/scss/_components/_deposit.scss */
