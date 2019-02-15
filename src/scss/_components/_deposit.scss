@@ -29,6 +29,9 @@
       height: calc(100% - 103px);
       padding-bottom: 0;
     }
+    @include adaptive(767) {
+      display: none;
+    }
 
     img {
       position: absolute;
@@ -96,8 +99,6 @@
   &__wrapper {
     z-index: 2;
     position: relative;
-    //padding-top: 225px;
-    //padding-bottom: 215px;
     @include fluid(padding-top, 320px, 1440px, 115px, 225px);
     @include fluid(padding-bottom, 320px, 1440px, 105px, 215px);
   }
@@ -105,23 +106,48 @@
   &__title {
     padding-bottom: 25px;
     text-transform: uppercase;
-    //font-size: 100px;
     font-weight: bold;
     color: #000000;
     letter-spacing: 0;
-    //line-height: 100px;
     @include fluid(line-height, 320px, 1920px, 50px, 100px);
     @include fluid(font-size, 320px, 1920px, 50px, 100px);
   }
 
   &__text {
     padding-bottom: 70px;
-    //font-size: 20px;
     font-family: 'SF Pro Text', sans-serif;
     color: rgba(#000000, 0.5);
     letter-spacing: 0;
     line-height: 27px;
     @include fluid(font-size, 320px, 1440px, 16px, 20px);
+
+    &--pb {
+      padding-bottom: 30px;
+    }
+  }
+
+  &__mobile {
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    @include adaptive(767) {
+      display: flex;
+    }
+
+    > div {
+      width: 100%;
+      max-width: calc(100% / 3);
+      padding: 5px 10px;
+      margin-bottom: 10px;
+
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+    }
   }
 
   &__block {
@@ -147,7 +173,6 @@
 
     p {
       font-family: 'SF Pro Text', sans-serif;
-      //font-size: 24px;
       color: #000000;
       letter-spacing: 0;
       line-height: 32px;
@@ -159,6 +184,7 @@
       align-items: center;
       justify-content: center;
       width: 100%;
+      max-width: 148px;
       height: 44px;
       border-radius: 3px;
       background-color: #E30813;
@@ -170,7 +196,7 @@
       @include transition(background-color);
 
       &:hover {
-        background-color: rgba(#E30813, 0.9);
+        background-color: rgba(#E30813, 0.85);
         @include transition(background-color);
       }
     }

@@ -33,14 +33,17 @@
 	@if $filename == museum {
 		$char: "\E002";
 	}
-	@if $filename == why-license {
+	@if $filename == why-join {
 		$char: "\E003";
 	}
-	@if $filename == why-profile {
+	@if $filename == why-license {
 		$char: "\E004";
 	}
-	@if $filename == why-xxx {
+	@if $filename == why-profile {
 		$char: "\E005";
+	}
+	@if $filename == why-xxx {
+		$char: "\E006";
 	}
 
 	@return $char;
@@ -63,6 +66,10 @@
 }
 .icon-museum {
 	@include icon(museum);
+
+}
+.icon-why-join {
+	@include icon(why-join);
 
 }
 .icon-why-license {
